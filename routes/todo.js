@@ -11,9 +11,6 @@ var db = require("../models");
 		.catch(function(err){
 			res.send(err);
 		})
-
-
-		// res.json({message:"we are at todo routes"});
 	});
 
 	route.post("/",function(req,res){
